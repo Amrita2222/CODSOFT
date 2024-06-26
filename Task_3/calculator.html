@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link
+  href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700;800&family=Work+Sans:wght@400;500&display=swap"
+  rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+  <link rel="stylesheet" href="calculator.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="parent_container">
+    <h2>Basic Calculator</h2>
+    <div class="calculator">
+      <div class="display" id="display"></div>
+      <div class="buttons">
+        <!-- first column -->
+        <button class="btn_col" data-value="7">7</button>
+        <button class="btn_col" data-value="8">8</button>
+        <button class="btn_col" data-value="9">9</button>
+        <button class="btn_col operator" data-value="/">/</button>
+
+        <!-- Second Column -->
+        <button class="btn_col" data-value="4">4</button>
+        <button class="btn_col" data-value="5">5</button>
+        <button class="btn_col" data-value="6">6</button>
+        <button class="btn_col operator" data-value="*">*</button>
+        <!-- Third Column -->
+        <button class="btn_col" data-value="1">1</button>
+        <button class="btn_col" data-value="2">2</button>
+        <button class="btn_col" data-value="3">3</button>
+        <button class="btn_col operator" data-value="-">-</button>
+        <!-- Fourth Column -->
+        <button class="btn_col" data-value="0">0</button>
+        <button class="btn_col" data-value=".">.</button>
+        <button class="btn_col clear" id="clear" >C</button>
+        <button class="btn_col operator" data-value="+">+</button>
+        <!-- this is equal button -->
+        <button class="btn_col equals" id="equals">=</button>
+      </div>
+    </div>
+  </div>
+  <script src="calculator.js"></script>
+</body>
+
+</html>
